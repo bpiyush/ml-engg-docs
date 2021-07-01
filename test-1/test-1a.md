@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Color
+title: Test 1A
 parent: Test level 1 Hierarchy
 ---
 
