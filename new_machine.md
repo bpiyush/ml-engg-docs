@@ -38,8 +38,6 @@ nav_order: 3
   
   export PS1="=> \[\033[32m\] \W\[\033[34m\]\$(parse_git_branch)\[\033[00m\] $ "
   ```
-![prompt](assets/prompt.png)
-
 
 <p align="center">
   <img src="assets/prompt.png" />
