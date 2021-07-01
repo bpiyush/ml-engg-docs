@@ -2,8 +2,6 @@
 
 Documentation for useful tools and best practices for real-world ML engineering
 
-{% include code_header.html %}
-
 
 ## Metadocs
 
@@ -12,6 +10,8 @@ Documentation for useful tools and best practices for real-world ML engineering
 1. Create a new public repo with a `README.md`.
 2. In the repo, go to `Settings -> Pages` and enable Github Pages. ([reference](https://guides.github.com/features/pages/))
 3. Add a new file `_config.yml` and add the following line to it:
+
+    {% include code_header.html %}
     ```yaml
     remote_theme: pmarsceill/just-the-docs
     ```
