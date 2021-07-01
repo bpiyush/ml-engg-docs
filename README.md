@@ -5,6 +5,11 @@ Documentation for useful tools and best practices for real-world ML engineering
 > Disclaimer: These docs are based on my personal experiences and suggestions from friends and colleagues. I do not claim to know everything. If you have suggestions/modification, please open a new issue and/or open a PR if you want to contribute.
 
 
+Preview dark color scheme
+
+<script> const toggleDarkMode = document.querySelector('.js-toggle-dark-mode'); jtd.addEvent(toggleDarkMode, 'click', function(){ if (jtd.getTheme() === 'dark') { jtd.setTheme('light'); toggleDarkMode.textContent = 'Preview dark color scheme'; } else { jtd.setTheme('dark'); toggleDarkMode.textContent = 'Return to the light side'; } }); </script>
+
+
 ## Metadocs
 
 ### How to get started with `just-the-docs` theme?
