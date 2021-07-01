@@ -61,6 +61,8 @@ nav_order: 3
 
 * See [more useful examples](https://natelandau.com/my-mac-osx-bash_profile/) of stuff to put in `~/.bash_profile`. Also, see [this](https://joshstaiger.org/archives/2005/07/bash_profile_vs.html) for a difference between `~/.bashrc` of Ubuntu and `~/.bash_profile` on MacOS.
 
+* Set command autofill: TODO
+
 Other useful stuff:
 ```bash
 # <---------- Text colors ------------>
@@ -162,3 +164,29 @@ alias loadzsh='source ~/.oh-my-zsh'
 alias remove_condabase='conda config --set auto_activate_base false'
 
 ```
+
+## Setting up tools and programs
+
+* `homebrew`
+* `python`
+* `chrome` (and/or other browsers)
+* `git`
+* `sublime`
+* `vscode`
+* `vim`
+* `MS office`
+* Sync tools (Drive/Dropbox)
+* `docker`
+* `virtualenv`
+* `conda`, `miniconda`
+* `tmux`
+
+See [this](https://levelup.gitconnected.com/im-programming-on-a-macbook-and-here-are-the-tools-that-make-my-life-easier-905b74b48c6d)
+for a more extensive list.
+Also, check out [this]().
+
+
+Other useful resources:
+
+1. [How To Setup A New MacBook Air M1 For Software Development](https://www.youtube.com/watch?v=gMsZT7yhz4Y)
+2. [How to Setup a Brand new Macbook](https://www.freecodecamp.org/news/how-to-set-up-a-brand-new-macbook/)
