@@ -17,4 +17,8 @@ Documentation for useful tools and best practices for real-world ML engineering
 
     That's it! You have the template ready.
 
+### How to test my site locally?
+
+See the [docs](https://pmarsceill.github.io/just-the-docs/#local-installation-use-the-gem-based-theme) on official JTD page.
+
 
