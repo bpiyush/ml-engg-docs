@@ -2,7 +2,7 @@
 
 Documentation for useful tools and best practices for real-world ML engineering
 
-> Disclaimer: These docs are based on my personal experiences and suggestions from friends and colleagues. I do not claim to know everything. If you have suggestions/modification, please open a new issue and/or open a PR if you want to contribute.
+> *Disclaimer*: These docs are based on my personal experiences and suggestions from friends and colleagues. I do not claim to know everything. If you have suggestions/modification, please open a new issue and/or open a PR if you want to contribute.
 
 
 ## Metadocs
