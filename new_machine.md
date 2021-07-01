@@ -15,9 +15,9 @@ nav_order: 3
 
 ---
 
-## Setting up the terminal
+## Basics
 
-### Basics
+### Terminal
 
 * Download [`iterm2`](https://iterm2.com/) and make it the default terminal. Go customize the color of text and background.
 * Generally, default command line shell is `bash`. If it suits you, you may try `oh my zsh` and `fish`. I would recommend sticking to `bash`.
