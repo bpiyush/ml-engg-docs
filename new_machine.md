@@ -21,12 +21,12 @@ nav_order: 3
 
 * Download [`iterm2`](https://iterm2.com/) and make it the default terminal. Go customize the color of text and background.
 * Generally, default command line shell is `bash`. If it suits you, you may try `oh my zsh` and `fish`. I would recommend sticking to `bash`.
-* Set colors on CLI for commands etc.
+* Set colors on CLI for commands etc. Put the following in `~/.bash_profile`.
   ```bash
   export CLICOLOR=1
   ```
 
-* Configure your terminal prompt. I prefer the following one which looks like the following:
+* Configure your terminal prompt. I prefer the following one which looks like the following. Put the following in `~/.bash_profile`. 
 
   ```bash
   parse_git_branch() {
