@@ -43,8 +43,29 @@ nav_order: 3
   <img src="assets/prompt.png" />
 </p>
 
-* Useful aliases: Put in `~/.bash_aliases`
+* Set command autofill: Check [this](https://sourabhbajaj.com/mac-setup/BashCompletion/)
+  out for bash autofill and suggestions.
+
+* Set global enviornment variables like the following (depending on what is relevant)
   ```bash
+  PATH=$PATH:/usr/local/; export PATH
+  PATH=$PATH:/Users/piyushbagad/Library/; export PATH
+  export LDFLAGS="-L/usr/local/opt/gettext/lib"
+  export CPPFLAGS="-I/usr/local/opt/gettext/include"
+  export PATH="/usr/local/opt/:$PATH"
+  export PATH="$HOME/.cargo/bin:$PATH"
+  ```
+
+## Setting up bash aliases & others
+
+You can pick and choose from the following to put in `~/.bash_aliases`.
+Don't forget to source it in `~/.bash_profile` though using.
+```bash
+source ~/.bash_aliases
+```
+
+```bash
+# <----------- Basic aliases --------->
   alias c='clear'
   alias q='exit'
   alias home='cd ~'
@@ -57,14 +78,7 @@ nav_order: 3
   alias .4='cd ../../../../'
   alias .5='cd ../../../../../'
   alias .6='cd ../../../../../../'
-  ```
 
-* See [more useful examples](https://natelandau.com/my-mac-osx-bash_profile/) of stuff to put in `~/.bash_profile`. Also, see [this](https://joshstaiger.org/archives/2005/07/bash_profile_vs.html) for a difference between `~/.bashrc` of Ubuntu and `~/.bash_profile` on MacOS.
-
-* Set command autofill: TODO
-
-Other useful stuff:
-```bash
 # <---------- Text colors ------------>
 RED=$(tput setaf 1)
 GREEN=$(tput setaf 2)
@@ -162,24 +176,40 @@ function archive () {
 alias loadbash='source ~/.bash_profile'
 alias loadzsh='source ~/.oh-my-zsh'
 alias remove_condabase='conda config --set auto_activate_base false'
-
 ```
+
+See [more useful examples](https://natelandau.com/my-mac-osx-bash_profile/)
+of stuff to put in `~/.bash_profile`.
+Also, see [this](https://joshstaiger.org/archives/2005/07/bash_profile_vs.html)
+for a difference between `~/.bashrc` of Ubuntu and `~/.bash_profile` on MacOS.
+
 
 ## Setting up tools and programs
 
 * `homebrew`
 * `python`
 * `chrome` (and/or other browsers)
-* `git`
+* `git` and `github`
 * `sublime`
 * `vscode`
 * `vim`
-* `MS office`
+* `MS office`(incl. OneNote)
 * Sync tools (Drive/Dropbox)
-* `docker`
+* `docker` and `dockerhub`
 * `virtualenv`
-* `conda`, `miniconda`
+* `conda`, `miniconda`, `miniforge`
 * `tmux`
+* `wandb`
+* `slack`
+* `notion`
+* `typora`
+* `AWS` (check student credits)
+* `Google Collab`(check student credits)
+* Useful commands at disposal
+  * `tree`
+  * `ncdu`
+  * `rsync`
+  * For generic programs, install with `brew`
 
 See [this](https://levelup.gitconnected.com/im-programming-on-a-macbook-and-here-are-the-tools-that-make-my-life-easier-905b74b48c6d)
 for a more extensive list.
