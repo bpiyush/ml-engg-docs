@@ -83,4 +83,11 @@ Investing some time upfront to set robust code environments is very useful in th
   ```
 See [this cheatsheet](https://docs.conda.io/projects/conda/en/4.6.0/_downloads/52a95608c49671267e40c689e0bc00ca/conda-cheatsheet.pdf) for more useful commands.
 
+Typically, I install packages within `conda` env with `pip install PACKAGENAME`. To (concisely) list all packages in a conda environment installed via pip, use:
+```bash
+pip install pip-chill
+pip-chill -v > concise_requirements.txt
+```
+
+
 ### Docker basics
