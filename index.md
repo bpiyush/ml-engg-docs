@@ -1,5 +1,9 @@
 ---
-title: README
+layout: default
+title: Home
+nav_order: 1
+description: Documentation for useful tools and best practices for real-world ML engineering.
+permalink: /
 ---
 
 # ML Engineering Docs
