@@ -15,7 +15,7 @@ nav_order: 2
 
 ---
 
-## Basics
+## Macbook
 
 ### Terminal
 
@@ -220,3 +220,10 @@ Other useful resources:
 
 1. [How To Setup A New MacBook Air M1 For Software Development](https://www.youtube.com/watch?v=gMsZT7yhz4Y)
 2. [How to Setup a Brand new Macbook](https://www.freecodecamp.org/news/how-to-set-up-a-brand-new-macbook/)
+
+
+## IPad (8th Generation or higher)
+
+1. Setup the pencil by connecting it to the charging port. Try it out on the inbuilt `Notes` app.
+2. Install and setup `Microsoft 365` package that includes `Word`, `Excel`, `Powerpoint`, `OneDrive`, `Outlook` and `OneNote`. Setup both your personal and work/academic account.
+3. Install and setup FIFA (if you're a fan of the game)
