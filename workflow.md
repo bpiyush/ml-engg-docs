@@ -108,6 +108,7 @@ pip-chill -v > concise_requirements.txt
 
 ### Code
 
+**Editor**:
 I prefer to code in `vscode` setup directly on the remote machine. Some useful packages to install within VSCode:
 ```txt
 Docker
@@ -117,8 +118,18 @@ PyTorch Snippets
 Markdown - All in One
 reStructuredText
 3D Viewer for VSCode
+Python Docstring Generator
 ```
 and lots more.
 
+**Documentation**:
+I use `Python Docstring Generator` extension on VSCode to generate Google format docstrings. For usual documentation (e.g. installation), I use READMEs inside individual folders.
+
+**Unit testing**: I use `unittest` framework for testing - see [this](https://realpython.com/python-testing/#unittest) for a quick overview.
+
+**Pre-commit hooks**: TODO
+
+
 Useful links:
 * [PyTorch support in VS Code](https://code.visualstudio.com/docs/datascience/pytorch-support)
+
