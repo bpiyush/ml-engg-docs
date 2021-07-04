@@ -58,3 +58,29 @@ Investing some time upfront to set robust code environments is very useful in th
   * It might also be useful to check what the lab uses prominently.
 
 > *Docker* can be very useful if you already created images with specific dependencies, e.g. a `core` image with all vision, language, 3D etc dependencies, a `core-vision` image and so on.
+
+### Conda basics
+
+* Create a new enviornment with python version
+  ```bash
+  conda create -n myenv python=3.8
+  ```
+* List all environments
+  ```bash
+  conda env list
+  ```
+* List all packages and versions installed in active environment
+  ```bash
+  conda list
+  ```
+* Delete an environment and everything in it
+  ```bash
+  conda env remove --name myenv
+  ```
+* Use conda to search for a package
+  ```bash
+  conda search PACKAGENAME
+  ```
+See [this cheatsheet](https://docs.conda.io/projects/conda/en/4.6.0/_downloads/52a95608c49671267e40c689e0bc00ca/conda-cheatsheet.pdf) for more useful commands.
+
+### Docker basics
