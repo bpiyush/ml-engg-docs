@@ -42,3 +42,19 @@ cat ~/.ssh/id_rsa.pub
 ```
 
 Copy the output. Login to GitHub with the same email ID. Then go to [https://github.com/settings/ssh/new](https://github.com/settings/ssh/new) add a Title and paste the copied output and press `Add SSH key`.
+
+
+## Coding environments
+
+Investing some time upfront to set robust code environments is very useful in the longer run for that project. The most common code environments are: `virtualenv`, `conda` (`anaconda`, `miniconda`, `conda-forge`, `miniforge`) and `docker`.
+
+* If you are extending someone else's code, or just trying out someone's code on your dataset, it is better to simply use their environment setup.
+* For your own code: the fight is typically between `conda` and `docker`.
+  * If it is a single isolated project, you may choose `conda`.
+  * If it a project that is only going to require a few basic dependencies, then you may choose `conda`.
+  * If it is a core project that you are going to have follow up projects on, I would recommend `docker`.
+  * In cases where large teams are involved, again `docker` is the way to go.
+  * In cases where deployement is likely to occur, again, choose `docker`.
+  * It might also be useful to check what the lab uses prominently.
+
+> *Docker* can be very useful if you already created images with specific dependencies, e.g. a `core` image with all vision, language, 3D etc dependencies, a `core-vision` image and so on.
