@@ -103,3 +103,22 @@ pip-chill -v > concise_requirements.txt
     docker commit -m "message" CONTAINER [REPOSITORY[:TAG]]
     docker push [REPOSITORY[:TAG]]
     ```
+
+## Coding workflow
+
+### Code
+
+I prefer to code in `vscode` setup directly on the remote machine. Some useful packages to install within VSCode:
+```txt
+Docker
+Jupyter
+PyLance
+PyTorch Snippets
+Markdown - All in One
+reStructuredText
+3D Viewer for VSCode
+```
+and lots more.
+
+Useful links:
+* [PyTorch support in VS Code](https://code.visualstudio.com/docs/datascience/pytorch-support)
