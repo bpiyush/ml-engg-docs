@@ -89,5 +89,17 @@ pip install pip-chill
 pip-chill -v > concise_requirements.txt
 ```
 
-
 ### Docker basics
+
+* Download and install `docker` following [this](https://docs.docker.com/get-started/#download-and-install-docker)
+* Creating a new image via `Dockerfile`: follow [this tutorial](https://stackify.com/docker-build-a-beginners-guide-to-building-docker-images/), see [this](https://github.com/WadhwaniAI/cough-against-covid) for a reference.
+  * To build a docker image from Dockerfile:
+    ```bash
+    cd /location/of/your/Dockerfile
+    docker build -t yourusername/repository-name .
+    ```
+  * To commit and push to dockerhub.com (see more on [commit](https://docs.docker.com/engine/reference/commandline/commit/) and [push](https://docs.docker.com/engine/reference/commandline/push/))
+    ```bash
+    docker commit -m "message" CONTAINER [REPOSITORY[:TAG]]
+    docker push [REPOSITORY[:TAG]]
+    ```
