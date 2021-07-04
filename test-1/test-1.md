@@ -1,7 +1,6 @@
 ---
 layout: default
 title: Test level 1 Hierarchy
-nav_order: 2
 has_children: true
 permalink: test-1
 ---

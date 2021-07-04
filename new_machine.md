@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Starting on a new machine
-nav_order: 3
+nav_order: 2
 ---
 
 # Starting on a new machine
