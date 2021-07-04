@@ -56,7 +56,7 @@ nav_order: 2
   export PATH="$HOME/.cargo/bin:$PATH"
   ```
 
-## Setting up bash aliases & others
+### Setting up bash aliases & others
 
 You can pick and choose from the following to put in `~/.bash_aliases`.
 Don't forget to source it in `~/.bash_profile` though using.
@@ -184,7 +184,7 @@ Also, see [this](https://joshstaiger.org/archives/2005/07/bash_profile_vs.html)
 for a difference between `~/.bashrc` of Ubuntu and `~/.bash_profile` on MacOS.
 
 
-## Setting up tools and programs
+### Setting up tools and programs
 
 * `homebrew`
 * `python`
