@@ -188,3 +188,8 @@ TODO
 **Useful links**:
 * [PyTorch support in VS Code](https://code.visualstudio.com/docs/datascience/pytorch-support)
 * [Missing Semester of your CS Education](https://missing.csail.mit.edu/)
+
+
+## ML Codebase Design
+
+TODO
