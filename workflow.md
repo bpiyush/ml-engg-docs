@@ -174,13 +174,8 @@ I use `Python Docstring Generator` extension on VSCode to generate Google format
 > (Some of these sphinx instructions have been written by Aman Dalmia)
 
 
-
 ### Pre-commit hooks
 TODO
-
-**Useful links**:
-* [PyTorch support in VS Code](https://code.visualstudio.com/docs/datascience/pytorch-support)
-* [Missing Semester of your CS Education](https://missing.csail.mit.edu/)
 
 ### Other basic software practices/tools
 
@@ -190,3 +185,6 @@ TODO
 - **Deep learning frameworks**: Pytorch, TF2.0, fastai (optional)
 
 
+**Useful links**:
+* [PyTorch support in VS Code](https://code.visualstudio.com/docs/datascience/pytorch-support)
+* [Missing Semester of your CS Education](https://missing.csail.mit.edu/)
