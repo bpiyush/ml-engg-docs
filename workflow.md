@@ -181,3 +181,12 @@ TODO
 **Useful links**:
 * [PyTorch support in VS Code](https://code.visualstudio.com/docs/datascience/pytorch-support)
 * [Missing Semester of your CS Education](https://missing.csail.mit.edu/)
+
+### Other basic software practices/tools
+
+- **Scripting**: Sublime and shortcuts, Sublime SFTP, jupyter lab and shortcuts, basic bash scripting, tmux and tmux shortcuts, mosh, forticlient, linux aliases, autoreload in jupyter, regex (python)
+- **Generic**: general MAC shortcuts, ssh, rsync, ssh-keys, htop and itop, nvidia-smi, gpustat
+- **Debugging**: ipdb
+- **Deep learning frameworks**: Pytorch, TF2.0, fastai (optional)
+
+
