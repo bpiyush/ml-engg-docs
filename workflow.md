@@ -106,7 +106,7 @@ pip-chill -v > concise_requirements.txt
 
 ## Coding workflow
 
-**Editor**:
+### Editor
 I prefer to code in `vscode` setup directly on the remote machine. Some useful packages to install within VSCode:
 ```
 Docker
@@ -120,7 +120,8 @@ Python Docstring Generator
 ```
 and lots more.
 
-**Unit testing**: I use `unittest` framework for testing - see [this](https://realpython.com/python-testing/#unittest) for a quick overview.
+### Unit testing
+I use `unittest` framework for testing - see [this](https://realpython.com/python-testing/#unittest) for a quick overview.
 
 **Code standardization** (linting):
 
@@ -130,10 +131,10 @@ and lots more.
 - [Adding Pylint checks as pre-commit hooks](https://git-pylint-commit-hook.readthedocs.io/en/latest/usage.html#pylint-configuration) (so that you cannot commit if your Pylint score is < some threshold)
 - [How to disable certain Pylint checks](https://docs.pylint.org/en/1.6.0/faq.html#message-control)
 
-**Documentation**:
+### Documentation
 I use `Python Docstring Generator` extension on VSCode to generate Google format docstrings. For usual documentation (e.g. installation), I use READMEs inside individual folders.
 
-**Sphinx for code docs**: 
+### Sphinx for code docs 
 
 - Suppose your repo resides at `/path/to/your/repo/`
   ```bash
@@ -163,7 +164,7 @@ I use `Python Docstring Generator` extension on VSCode to generate Google format
     ```
   - Make a folder named _api inside doc
 
-Resources
+**Resources**
 
 - [Sphinx tutorial](https://buildmedia.readthedocs.org/media/pdf/brandons-sphinx-tutorial/latest/brandons-sphinx-tutorial.pdf)
 - [Code for sphinx tutorial](https://github.com/brandon-rhodes/sphinx-tutorial/tree/master/triangle-project/trianglelib)
@@ -174,8 +175,9 @@ Resources
 
 
 
-**Pre-commit hooks**: TODO
+### Pre-commit hooks
+TODO
 
-Useful links:
+**Useful links**:
 * [PyTorch support in VS Code](https://code.visualstudio.com/docs/datascience/pytorch-support)
 * [Missing Semester of your CS Education](https://missing.csail.mit.edu/)
