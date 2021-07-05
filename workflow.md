@@ -120,12 +120,7 @@ Python Docstring Generator
 ```
 and lots more.
 
-**Documentation**:
-I use `Python Docstring Generator` extension on VSCode to generate Google format docstrings. For usual documentation (e.g. installation), I use READMEs inside individual folders.
-
 **Unit testing**: I use `unittest` framework for testing - see [this](https://realpython.com/python-testing/#unittest) for a quick overview.
-
-**Pre-commit hooks**: TODO
 
 **Code standardization** (linting):
 
@@ -139,6 +134,49 @@ I use `Python Docstring Generator` extension on VSCode to generate Google format
 
 - How to disable certain Pylint checks: https://docs.pylint.org/en/1.6.0/faq.html#message-control
 
+**Documentation**:
+I use `Python Docstring Generator` extension on VSCode to generate Google format docstrings. For usual documentation (e.g. installation), I use READMEs inside individual folders.
+
+**Sphinx for code docs**: 
+
+- Suppose your repo resides at `/path/to/your/repo/`
+  ```bash
+  cd /path/to/your/repo/
+  mkdir doc/
+  cd doc/
+  ```
+- Install `sphinx` using `pip install sphinx`
+- Run the following command and fill in the details `sphinx-quickstart`
+- Adding a custom theme:
+  - Install a new theme
+    ```bash
+    pip install rtcat_sphinx_theme
+    pip install recommonmark
+    ```
+- Add following lines in `doc/conf.py`
+  ```bash
+  html_theme = 'rtcat_sphinx_theme'
+  import rtcat_sphinx_theme
+  html_theme_path = [rtcat_sphinx_theme.get_html_theme_path()]
+  ```
+
+- Adding API Reference for code:
+  - Edit conf.py as follows: 
+    ```bash
+    exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store', '_api']
+    ```
+  - Make a folder named _api inside doc
+
+Resources
+
+- Sphinx tutorial: https://buildmedia.readthedocs.org/media/pdf/brandons-sphinx-tutorial/latest/brandons-sphinx-tutorial.pdf
+- Code for sphinx tutorial: https://github.com/brandon-rhodes/sphinx-tutorial/tree/master/triangle-project/trianglelib
+- Sphinx documentation: https://www.sphinx-doc.org/en/master/contents.html
+- Example sphinx documentation file from sphinx's main repo: https://github.com/sphinx-doc/sphinx/blob/3.x/doc/contents.rst
+
+
+
+**Pre-commit hooks**: TODO
 
 Useful links:
 * [PyTorch support in VS Code](https://code.visualstudio.com/docs/datascience/pytorch-support)
