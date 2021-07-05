@@ -127,6 +127,18 @@ I use `Python Docstring Generator` extension on VSCode to generate Google format
 
 **Pre-commit hooks**: TODO
 
+**Code standardization**:
+
+- Intro tutorial: https://docs.pylint.org/en/1.6.0/tutorial.html
+
+- List of message IDs with their meanings: https://docs.pylint.org/en/1.6.0/features.html
+
+- FAQ for Pylint: http://pylint.pycqa.org/en/latest/faq.html
+
+- Adding Pylint checks as pre-commit hooks: https://git-pylint-commit-hook.readthedocs.io/en/latest/usage.html#pylint-configuration (so that you cannot commit if your Pylint score is < some threshold)
+
+- How to disable certain Pylint checks: https://docs.pylint.org/en/1.6.0/faq.html#message-control
+
 
 Useful links:
 * [PyTorch support in VS Code](https://code.visualstudio.com/docs/datascience/pytorch-support)
