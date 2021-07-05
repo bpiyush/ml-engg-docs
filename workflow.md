@@ -127,7 +127,7 @@ I use `Python Docstring Generator` extension on VSCode to generate Google format
 
 **Pre-commit hooks**: TODO
 
-**Code standardization**:
+**Code standardization** (linting):
 
 - Intro tutorial: https://docs.pylint.org/en/1.6.0/tutorial.html
 
@@ -142,4 +142,4 @@ I use `Python Docstring Generator` extension on VSCode to generate Google format
 
 Useful links:
 * [PyTorch support in VS Code](https://code.visualstudio.com/docs/datascience/pytorch-support)
-
+* [Missing Semester of your CS Education](https://missing.csail.mit.edu/)
