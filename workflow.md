@@ -106,8 +106,6 @@ pip-chill -v > concise_requirements.txt
 
 ## Coding workflow
 
-### Code
-
 **Editor**:
 I prefer to code in `vscode` setup directly on the remote machine. Some useful packages to install within VSCode:
 ```
