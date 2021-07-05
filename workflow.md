@@ -124,15 +124,11 @@ and lots more.
 
 **Code standardization** (linting):
 
-- Intro tutorial: https://docs.pylint.org/en/1.6.0/tutorial.html
-
-- List of message IDs with their meanings: https://docs.pylint.org/en/1.6.0/features.html
-
-- FAQ for Pylint: http://pylint.pycqa.org/en/latest/faq.html
-
-- Adding Pylint checks as pre-commit hooks: https://git-pylint-commit-hook.readthedocs.io/en/latest/usage.html#pylint-configuration (so that you cannot commit if your Pylint score is < some threshold)
-
-- How to disable certain Pylint checks: https://docs.pylint.org/en/1.6.0/faq.html#message-control
+- [Intro tutorial](https://docs.pylint.org/en/1.6.0/tutorial.html)
+- [List of message IDs with their meanings](https://docs.pylint.org/en/1.6.0/features.html)
+- [FAQ for Pylint](http://pylint.pycqa.org/en/latest/faq.html)
+- [Adding Pylint checks as pre-commit hooks](https://git-pylint-commit-hook.readthedocs.io/en/latest/usage.html#pylint-configuration) (so that you cannot commit if your Pylint score is < some threshold)
+- [How to disable certain Pylint checks](https://docs.pylint.org/en/1.6.0/faq.html#message-control)
 
 **Documentation**:
 I use `Python Docstring Generator` extension on VSCode to generate Google format docstrings. For usual documentation (e.g. installation), I use READMEs inside individual folders.
@@ -169,10 +165,12 @@ I use `Python Docstring Generator` extension on VSCode to generate Google format
 
 Resources
 
-- Sphinx tutorial: https://buildmedia.readthedocs.org/media/pdf/brandons-sphinx-tutorial/latest/brandons-sphinx-tutorial.pdf
-- Code for sphinx tutorial: https://github.com/brandon-rhodes/sphinx-tutorial/tree/master/triangle-project/trianglelib
-- Sphinx documentation: https://www.sphinx-doc.org/en/master/contents.html
-- Example sphinx documentation file from sphinx's main repo: https://github.com/sphinx-doc/sphinx/blob/3.x/doc/contents.rst
+- [Sphinx tutorial](https://buildmedia.readthedocs.org/media/pdf/brandons-sphinx-tutorial/latest/brandons-sphinx-tutorial.pdf)
+- [Code for sphinx tutorial](https://github.com/brandon-rhodes/sphinx-tutorial/tree/master/triangle-project/trianglelib)
+- [Sphinx documentation](https://www.sphinx-doc.org/en/master/contents.html)
+- [Example sphinx documentation file from sphinx's main repo](https://github.com/sphinx-doc/sphinx/blob/3.x/doc/contents.rst)
+
+> (Some of these sphinx instructions have been written by Aman Dalmia)
 
 
 
