@@ -193,3 +193,49 @@ TODO
 ## ML Codebase Design
 
 TODO
+
+Broadly, I like to follow design patterns suggested in the [Full Stack Deep Learning](https://fullstackdeeplearning.com/) courses. I also like the idea of factory patterns for configurable machine learning - this should be publicly available in a few days (by [Aditya Sarma](https://adityaas.github.io/) and [Jigar Doshi](https://www.linkedin.com/in/jigarkdoshi/) of [Wadhwani AI](https://www.wadhwaniai.org/)).
+
+In summary, here are the key ideas:
+TODO
+
+Here is the rough structure sample:
+
+```bash
+configs/: contains all config files
+
+assets/: heavy file requirements
+
+lib/: third party requirements
+
+packagename/
+    config.py: config reader script
+
+    data/: contains dataset objects, dataloaders etc.
+
+    networks/
+        layers.py
+        activations.py
+        backbones/
+            resnet.py
+            vggnet.py
+            :
+
+    models/
+        my_custom_model.py
+
+    utils/
+        optimizers.py
+        schedulers.py
+        :
+
+setup/: setup instructions and scripts
+
+training/: contains trainer code
+
+evaluation/: contains evaluation code
+
+notebooks/: all testing jupyter NBs
+
+tests/: unittests
+```
