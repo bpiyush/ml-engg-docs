@@ -20,6 +20,8 @@ nav_order: 5
 * `huggingface`
 * `pytorch-lightning`, `lightning-flash`
 * `timm` (`torch` image models)
+* `pytorch3D`
+* `pytorchvideo`
 
 The list is not finite - I will keep adding as I recall.
 
