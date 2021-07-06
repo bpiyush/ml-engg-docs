@@ -231,6 +231,8 @@ packagename/
 
 setup/: setup instructions and scripts
 
+datasets/: scripts to download, setup, maintain datasets
+
 training/: contains trainer code
 
 evaluation/: contains evaluation code

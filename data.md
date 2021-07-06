@@ -50,3 +50,12 @@ I've so far followed the naive versioning strategy:
 Note that this is only applicable to your own datasets - public datasets are almost always versioned already.
 
 [Data Version Control](https://dvc.org/) is a nice upcoming open-source tool for version control of experiments (combination of data and model).
+
+
+## Annotations
+
+* [Piegon](https://github.com/agermanidis/pigeon): open-source tool to annotation list of jobs in a notebook (usually best option for short-term self annotations)
+* Making a notebook interactive: [ipywidgets](https://ipywidgets.readthedocs.io/en/latest/) and [voila](https://voila.readthedocs.io/en/stable/using.html)
+* Flask-based interactive website can be used for internal annotation.
+* [Streamlit](https://streamlit.io/) also is a very handy option to create (mostly) static websites for data exploration and annotation.
+* For external annotation, lots of platforms exist with AWS MechTurk being the most popular for crowdsourced annotation.
