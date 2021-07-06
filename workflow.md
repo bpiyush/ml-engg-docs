@@ -239,3 +239,5 @@ notebooks/: all testing jupyter NBs
 
 tests/: unittests
 ```
+
+You can take a look at [this](https://github.com/WadhwaniAI/cough-against-covid) as a sample repo.
