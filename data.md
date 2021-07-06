@@ -48,3 +48,5 @@ I've so far followed the naive versioning strategy:
 * To maintain splits within version `vx`, you can make `vx.1`, `vx.2` and so on.
 
 Note that this is only applicable to your own datasets - public datasets are almost always versioned already.
+
+[Data Version Control](https://dvc.org/) is a nice upcoming open-source tool for version control of experiments (combination of data and model).
