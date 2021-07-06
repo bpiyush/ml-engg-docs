@@ -32,6 +32,10 @@ mydataset/
 * The `metadata` folder may contain any other associated metadata, changelog etc.
 
 
+## Storage
+
+On-prem data storage is the easiest option. The more robust options (but expensive) would be to store data on AWS S3 buckets or EFS (very expensive). `s3fs` is a nice tool to access S3 buckets like a usual file-system.
+
 
 ## Databases
 
