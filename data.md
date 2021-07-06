@@ -36,3 +36,11 @@ mydataset/
 ## Databases
 
 TODO
+
+## Versioning
+
+I've so far followed the naive versioning strategy:
+* Make a new version `v(x+1)` from `vx` whenever there is a change to the size of the dataset (typically, adding new samples)
+* To maintain splits within version `vx`, you can make `vx.1`, `vx.2` and so on.
+
+Note that this is only applicable to your own datasets - public datasets are almost always versioned already.
