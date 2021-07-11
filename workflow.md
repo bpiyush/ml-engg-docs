@@ -246,5 +246,20 @@ You can take a look at [this](https://github.com/WadhwaniAI/cough-against-covid)
 
 ## Tools for visualization
 
+1. Weights and Biases
+2. Tensorboard
+3. Voila (for rendering static Jupyter notebooks)
+4. Interactive plots with [Bokeh](https://docs.bokeh.org/en/latest/index.html)
+5. Seaborn/plt for regular plotting
+6. Static website building (could be useful for dataset hosting): Github pages, Streamlit, Flask, etc.
 
 ## Experiment management
+
+The best tool for ML experiment management is [Weights & Biases](https://app.wandb.ai/). Getting started it very easy, it is very flexible and lots of amazing features like hyperparameter sweep, Tables etc.
+
+Typically, the experiment flow for me looks like:
+
+1. Run the experiment in a docker container in a `tmux` session.
+2. Maintain a Google Sheet where I add link to the experiment W&B and few key details (I haven't found useful tools to automate this part - but that would be very useful).
+3. Create a W&B report where you visualize relevant runs grouped together.
+4. Also, I haven't quite explored schedulers like `slurm` which too should be useful.
