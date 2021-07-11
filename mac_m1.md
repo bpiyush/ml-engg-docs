@@ -163,5 +163,6 @@ You can also install two different `brew`'s depending on which arch you want to 
 2. [Using Conda on an M1 Mac](https://towardsdatascience.com/using-conda-on-an-m1-mac-b2df5608a141) by [Nils Flaschel](https://pooled-roc-xgb-plotly.medium.com/)
 3. [Building and Installing opencv 4.5.0 on Mac M1](https://sayak.dev/install-opencv-m1/) by [Sayak Paul](https://sayak.dev/)
 4. [Homebew on Apple Silicon](https://soffes.blog/homebrew-on-apple-silicon) by [Sam Soffes](https://soff.es/)
+5. [Github comment](https://github.com/pytorch/pytorch/issues/48145#issuecomment-783094831) by Sebastian Raschka on building `PyTorch` from source to use native M1 cores.
 
 If you have suggestions or if something did not work for you, please feel free to [email](mailto:piyushnbagad11@gmail.com) me or DM on [Twitter](https://twitter.com/bagad_piyush?lang=en).
