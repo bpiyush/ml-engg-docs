@@ -157,6 +157,16 @@ Type "help", "copyright", "credits" or "license" for more information.
 
 You can also install two different `brew`'s depending on which arch you want to use. [This](https://soffes.blog/homebrew-on-apple-silicon) is a nice tutorial you can follow. I would recommend using `brew` with the native arch by default and having an alias like `ibrew` for the latter.
 
+## Setting up VSCode
+
+In order to set VSCode terminal correctly, you need to change the following settings in `Settings`:
+```json
+    "terminal.external.osxExec": "iTerm.app",
+    "terminal.integrated.env.osx": {
+        "PATH": null
+    }
+```
+
 ## References
 
 1. [How to Install Rosetta 2 on Apple Silicon Macs](https://osxdaily.com/2020/12/04/how-install-rosetta-2-apple-silicon-mac/)
